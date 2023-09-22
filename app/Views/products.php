@@ -136,39 +136,30 @@
 
         <h2>Product Listing</h2>
         
-        <table>
-            <tr>
-                <th>Product Name</th>
-                <th>Product Description</th>
-                <th>Product Category</th>
-                <th>Product Quantity</th>
-                <th>Product Price</th>
-                <th>Action</th>
-            </tr>
+        
             <?php foreach ($product as $pr): ?>
-               <tr>
-                    <td>
-                        <?= $pr['productName'] ?>
-                    </td>
-                    <td>
-                        <?= $pr['productDescription'] ?>
-                    </td>
-                    <td>
-                        <?= $pr['productCategory'] ?>
-                    </td>
-                    <td>
-                        <?= $pr['productQuantity'] ?>
-                    </td>
-                    <td>
-                        <?= $pr['productPrice'] ?>
-                    </td>
-                    <td class="action-buttons">
-                        <a href="/delete/<?= $pr['id'] ?>">Delete</a>
-                        <a href="/edit/<?= $pr['id'] ?>">Edit</a>
-                    </td>
-                </tr>
-            <?php endforeach ?>
-        </table>
+            <ul>
+                <li><strong>Product Name:</strong>
+                    <?= $pr['productName'] ?>
+                </li>
+                <li><strong>Product Description:</strong>
+                    <?= $pr['productDescription'] ?>
+                </li>
+                <li><strong>Product Category:</strong>
+                    <?= $pr['productCategory'] ?>
+                </li>
+                <li><strong>Product Quantity:</strong>
+                    <?= $pr['productQuantity'] ?>
+                </li>
+                <li><strong>Product Price:</strong>
+                    <?= $pr['productPrice'] ?>
+                </li>
+                <a href="/delete/<?= $pr['id'] ?>" class="btn red">Delete</a>
+                <a href="/edit/<?= $pr['id'] ?>" class="btn green">Edit</a>
+            </ul>
+        <?php endforeach ?>
+    </div>
+        
         
     </div>
 </body>
