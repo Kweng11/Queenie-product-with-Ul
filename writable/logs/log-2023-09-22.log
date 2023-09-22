@@ -1,0 +1,76 @@
+CRITICAL - 2023-09-22 00:18:15 --> Undefined variable $pr
+in APPPATH\Views\products.php on line 141.
+ 1 APPPATH\Views\products.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pr', 'C:\\laragon\\www\\Product\\app\\Views\\products.php', 141)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Product\\app\\Views\\products.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('products', [], true)
+ 5 APPPATH\Controllers\ProductController.php(77): view('products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Product\\public\\index.php')
+CRITICAL - 2023-09-22 00:18:29 --> Array to string conversion
+in APPPATH\Views\products.php on line 141.
+ 1 APPPATH\Views\products.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\Product\\app\\Views\\products.php', 141)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Product\\app\\Views\\products.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('products', [], true)
+ 5 APPPATH\Controllers\ProductController.php(77): view('products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Product\\public\\index.php')
+CRITICAL - 2023-09-22 01:54:20 --> syntax error, unexpected end of file
+in APPPATH\Views\products.php on line 182.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('products', [], true)
+ 3 APPPATH\Controllers\ProductController.php(77): view('products', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Product\\public\\index.php')
+CRITICAL - 2023-09-22 01:55:26 --> syntax error, unexpected end of file
+in APPPATH\Views\products.php on line 182.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('products', [], true)
+ 3 APPPATH\Controllers\ProductController.php(77): view('products', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Product\\public\\index.php')
+CRITICAL - 2023-09-22 01:55:49 --> syntax error, unexpected end of file
+in APPPATH\Views\products.php on line 182.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('products', [], true)
+ 3 APPPATH\Controllers\ProductController.php(77): view('products', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Product\\public\\index.php')
+CRITICAL - 2023-09-22 01:57:11 --> syntax error, unexpected end of file
+in APPPATH\Views\products.php on line 183.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('products', [], true)
+ 3 APPPATH\Controllers\ProductController.php(77): view('products', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Product\\public\\index.php')
+CRITICAL - 2023-09-22 10:38:33 --> Undefined array key "ProductName"
+in APPPATH\Views\products.php on line 152.
+ 1 APPPATH\Views\products.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ProductName"', 'C:\\laragon\\www\\Product\\app\\Views\\products.php', 152)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Product\\app\\Views\\products.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('products', [], true)
+ 5 APPPATH\Controllers\ProductController.php(77): view('products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Product\\public\\index.php')
